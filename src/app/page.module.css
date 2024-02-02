@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  }
+
+  .container__list {
+  list-style-type: none;
+  padding: 0;
+  }
+
+  .list {
+  margin-bottom: 5px;
+  }
+
+  .title {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+  }
+  
+  .nameclub {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid rgb(29, 84, 185);
+  }
+
+
+.container__list {
+  margin: 20px;
+}
+
+.title {
+  color: #333;
+}
+
+.nameclub {
+  color: #555;
+}
+
+.container__list li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.container__list img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.container__list p {
+  margin: 0;
+}
+
+.container__list strong {
+  display: block;
+  margin-bottom: 10px;
+}
+  
+  
